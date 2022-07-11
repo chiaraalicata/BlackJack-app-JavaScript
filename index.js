@@ -42,7 +42,7 @@ function renderGame() {
     cardsEl.textContent += cards[i] + " ";
   }
   sumEl.textContent = "Sum: " + sum;
-  if (sum <= 21) {
+  if (sum <= 20) {
     message = "Do you want to draw another card?";
   } else if (sum === 21) {
     message = "You've got Blackjack!";
