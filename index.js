@@ -8,8 +8,8 @@ let sumEl = document.getElementById("sum-el");
 let cardsEl = document.getElementById("cards-el");
 
 let player = {
-  name: "Per",
-  chips: 145,
+  name: "Chiara",
+  chips: 200,
 };
 
 let playerEl = document.getElementById("player-el");
